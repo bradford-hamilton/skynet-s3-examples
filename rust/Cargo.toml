@@ -1,0 +1,12 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["Bradford Lamson-Scribner <brad.lamson@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rusoto_core = "0.43.0-beta.1"
+rusoto_s3 = "0.43.0-beta.1"
+hyper = "0.13"
+futures = "0.3.4"
+tokio = "0.2.13"
